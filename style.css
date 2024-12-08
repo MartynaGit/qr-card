@@ -1,0 +1,58 @@
+:root {
+	--White: hsl(0, 0%, 100%);
+
+	--background: hsl(212, 45%, 89%);
+	--paragraph: hsl(216, 15%, 48%);
+	--dark: hsl(218, 44%, 22%);
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html{
+   font-size:62.5%;
+}
+
+body {
+	font-family: 'Outfit', sans-serif;
+	background-color:var(--background);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+    font-size: 1.5rem;
+}
+
+.qr-card {
+	width: 330px;
+	background-color:var(--White);
+	border-radius: 20px;
+	padding: 2rem 2rem 3rem ;
+}
+
+.qr-img img {
+	max-width: 100%;
+	border-radius: 20px;
+}
+
+.qr-text {
+	text-align: center;
+	font-size: 1.5rem;
+    margin: 3rem 0;
+
+}
+
+.qr-text p:first-child {
+	font-weight: bold;
+	font-size: 2rem;
+	margin-bottom: 2rem;
+    color: var(--dark);
+}
+
+.qr-text p:nth-child(2) {
+	color: var(--paragraph);
+	font-size: 1.5rem;
+}
